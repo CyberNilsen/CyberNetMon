@@ -157,27 +157,6 @@ sudo python gui.py
 - **RAM**: 512 MB available memory
 - **Network**: Internet connection for geolocation services
 
-## 🤝 Contributing
-
-We welcome contributions to CyberNetMon! Here's how you can help:
-
-### Bug Reports
-- Use GitHub Issues to report bugs
-- Include system information and error messages
-- Provide steps to reproduce the issue
-
-### Feature Requests
-- Suggest new features via GitHub Issues
-- Describe the use case and expected behavior
-- Consider the security implications
-
-### Pull Requests
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ### Development Setup
 ```bash
 # Clone your fork
