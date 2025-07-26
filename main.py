@@ -99,7 +99,7 @@ class StatusIndicator(tk.Frame):
         self.indicator.config(fg=color)
         self.status_text.config(text=text.upper(), fg=color)
 
-class CyberWatchGUI:
+class CyberNetMonGUI:
     """Simplified GUI with clean, professional styling"""
     
     def __init__(self):
@@ -115,7 +115,7 @@ class CyberWatchGUI:
         
     def setup_window(self):
         """Configure main window"""
-        self.root.title("CyberWatch")
+        self.root.title("CyberNetMon")
         self.root.geometry("1400x800")
         self.root.minsize(1200, 700)
         self.root.configure(bg=CleanStyle.BG_PRIMARY)
@@ -180,7 +180,7 @@ class CyberWatchGUI:
         
         title_label = tk.Label(
             title_frame,
-            text="🛡️ CyberWatch",
+            text="🛡️ CyberNetMon",
             font=('Arial', 24, 'bold'),
             bg=CleanStyle.BG_SECONDARY,
             fg=CleanStyle.TEXT_PRIMARY
@@ -487,13 +487,13 @@ class CyberWatchGUI:
             self.monitor.stop_monitoring()
             
 if __name__ == "__main__":
-    print("CyberWatch")
+    print("CyberNetMon")
     print("=" * 40)
     print("Starting application...")
     
     try:
-        app = CyberWatchGUI()
+        app = CyberNetMonGUI()
         app.run()
     except Exception as e:
         print(f"Error: {e}")
-        messagebox.showerror("Application Error", f"Failed to start CyberWatch:\n{str(e)}")
+        messagebox.showerror("Application Error", f"Failed to start CyberNetMon:\n{str(e)}")
